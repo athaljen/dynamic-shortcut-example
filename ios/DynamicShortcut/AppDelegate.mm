@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-
+#import "RNDShortcutManager.h"
 #import <React/RCTBundleURLProvider.h>
 
 @implementation AppDelegate
@@ -26,6 +26,10 @@
 #else
   return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 #endif
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL succeeded)) completionHandler {
+  [RNDShortcutManager onShortcutActionPress:shortcutItem completionHandler:completionHandler];
 }
 
 @end
