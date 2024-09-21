@@ -2964,7 +2964,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.3.1
     react-native: 0.75.3
-    react-native-dynamic-shortcut: ^0.0.2
+    react-native-dynamic-shortcut: ^1.0.0
     react-native-safe-area-context: ^4.11.0
     react-native-screens: ^3.34.0
     react-test-renderer: 18.3.1
@@ -7928,10 +7928,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-dynamic-shortcut@npm:^0.0.2":
-  version: 0.0.2
-  resolution: "react-native-dynamic-shortcut@npm:0.0.2"
-  checksum: 10e61acebba879390a81c395a5444d92fa74bcc636afc3ab5fd00687d2090e9d41d2939169955c357a20050320f6d13aefa109df47ca2729f5a9465d65382e1f
+"react-native-dynamic-shortcut@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "react-native-dynamic-shortcut@npm:1.0.0"
+  checksum: 15d70630db2512e2f49b47ef88af549ec1f64358616f5de68bf04d2bc3d72216951b88f74757550c8cf193dca5e95098320b5b39999b74ebcb1d0ffb3095ab97
   languageName: node
   linkType: hard
 
